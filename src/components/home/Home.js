@@ -2,8 +2,6 @@ import React from 'react';
 import Style from './Home.module.scss';
 import me from '../../img/self.png';
 import classNames from 'classnames';
-import EmojiBullet from "./EmojiBullet";
-import SocialIcon from "./SocialIcon";
 import {Box} from "@mui/material";
 import {info} from "../../info/Info";
 
@@ -11,12 +9,15 @@ import {info} from "../../info/Info";
 export default function Home() {
 
    return (
+    <div id="home">
+      
       <Box component={'main'} display={'flex'} flexDirection={{xs: 'column', md: 'row'}} alignItems={'center'}
            justifyContent={'center'} minHeight={'calc(100vh - 175px)'}>
          <Box className={classNames(Style.avatar, Style.shadowed)} alt={'image of developer'} style={{background: info.gradient}} component={'img'} src={me} width={{xs: '35vh', md: '38vh'}}
               height={{xs: '35vh', md: '40vh'}}
               borderRadius={'50%'} p={'0.75rem'} mb={{xs: '1rem', sm: 0}} mr={{xs: 0, md: '2rem'}}/>
          <Box>
+            
             <h1>안녕하세요, <span style={{background: info.gradient, WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>이주영</span>입니다<span className={Style.hand}>🤚</span>
             </h1>
             <h2>A Front End Engineer</h2>
@@ -30,5 +31,6 @@ export default function Home() {
             </Box>
          </Box>
       </Box>
+      </div>
    )
 }

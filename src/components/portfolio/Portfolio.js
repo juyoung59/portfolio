@@ -5,6 +5,7 @@ import {info} from "../../info/Info";
 
 export default function Portfolio() {
     return (
+      <div id="portfolio">
         <Box>
             <Grid container display={'flex'} justifyContent={'center'}>
                 {info.portfolio.map((project, index) => (
@@ -14,5 +15,6 @@ export default function Portfolio() {
                 ))}
             </Grid>
         </Box>
+      </div>
     );
 };
