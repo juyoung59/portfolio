@@ -4,12 +4,14 @@ import me from '../../img/self.png';
 import classNames from 'classnames';
 import {Box} from "@mui/material";
 import {info} from "../../info/Info";
+import { Link as ScrollLink } from 'react-scroll';
+import scroll from '../../img/arrow.png';
 
 
 export default function Home() {
 
    return (
-    <div id="home">
+    <div id="home" className={Style.home}>
       
       <Box component={'main'} display={'flex'} flexDirection={{xs: 'column', md: 'row'}} alignItems={'center'}
            justifyContent={'center'} minHeight={'calc(100vh - 175px)'}>
@@ -22,15 +24,25 @@ export default function Home() {
             </h1>
             <h2>A Front End Engineer</h2>
             <Box component={'ul'} p={'0.8rem'}>
-              <p1>활발한 성격인 저는 책상에 오래 앉아 있는 일을 선호하지 않았지만,
+              <p className={Style.intro}>활발한 성격인 저는 책상에 오래 앉아 있는 일을 선호하지 않았지만,
                 <br></br>코딩하는 순간만큼은 달랐습니다.
                 <br></br>웹 개발을 처음 접했을 때 가장 행복을 느꼈으며
                 <br></br>현재 프론트엔드 개발자가 되겠다는 꿈을 이어가고 있습니다.
                 <br></br>끊임 없이 발전하는 IT 산업의 변화에 뒤처지지 않고
-                <br></br>세상에 없던 새로운 시스템을 만드는 개발자가 되는 것이 저의 목표입니다.</p1>
+                <br></br>세상에 없던 새로운 시스템을 만드는 개발자가 되는 것이 저의 목표입니다.</p>
             </Box>
          </Box>
       </Box>
+      <ScrollLink
+      to="about"  // 이동할 섹션의 ID
+      spy={true}
+      smooth={true}
+      duration={500}  // 스크롤 애니메이션 지속 시간 (밀리초)
+      className={Style.scrollDownText}
+    >
+      더 알아보기
+      <img src={scroll} alt="Scroll Down" className={Style.scrollIcon} />
+    </ScrollLink>
       </div>
    )
 }

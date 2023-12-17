@@ -1,6 +1,11 @@
 @import "../../variables.modules";
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
 
+.home {
+  min-height: 100vh; // 최소 높이를 화면의 100%로 설정
+  /* 추가적인 스타일 */
+}
 
 h1 {
   font-size: 2rem;
@@ -20,7 +25,7 @@ h2 {
   }
 }
 
-p1 {
+.intro {
   font-family: 'Nanum Pen Script', cursive;
   font-size: 32px;
 }
@@ -52,4 +57,21 @@ a:hover {
   50% { transform: rotate(10.0deg) }
   60% { transform: rotate( 0.0deg) }
   100% { transform: rotate( 0.0deg) }
+}
+
+.scrollDownText {
+  cursor: pointer;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 30px;
+  color: #333; 
+  font-family: 'Black Han Sans', sans-serif;
+}
+
+.scrollIcon{
+  height: 25px;
+  transform: rotate(90deg);
+  margin-left: 10px;
 }
