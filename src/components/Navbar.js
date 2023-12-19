@@ -42,8 +42,8 @@ export default function Navbar({ darkMode, handleClick }) {
                 <Link to="about" spy={true} smooth={true} className={Style.link} onClick={() => scrollTo('about')}>
                     about
                 </Link>
-                <Link to="portfolio" spy={true} smooth={true} className={Style.link} onClick={() => scrollTo('portfolio')}>
-                    portfolio
+                <Link to="project" spy={true} smooth={true} className={Style.link} onClick={() => scrollTo('project')}>
+                    projects
                 </Link>
                 <li className={Style.customLi}>
                     <Toggler darkMode={darkMode} handleClick={handleClick}/>

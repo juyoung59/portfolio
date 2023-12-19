@@ -4,7 +4,7 @@ import './App.module.scss';
 import Home from './components/home/Home'
 import About from './components/about/About'
 import ScrollToTop from './components/scollToTop/ScrollToTop';
-import Portfolio from './components/portfolio/Portfolio'
+import Project from './components/project/Projects'
 import Header from './components/Navbar'
 import Footer from './components/footer/Footer';
 
@@ -18,7 +18,7 @@ const App = () => {
         <main>          
           <Home />
           <About />
-          <Portfolio />
+          <Project />
         </main>
 
         <ScrollToTop />

@@ -107,9 +107,9 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+            title: "KT AIVLE School 3기 빅프로젝트",
+            live: "https://www.youtube.com/watch?v=UZFrVjhsu5U", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/juyoung59/ktaivle-big-project", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
         {

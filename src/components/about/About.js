@@ -72,8 +72,9 @@ export default function About() {
   }
 
   return (
-    <div id="about" className={Style.about}>
-      <Element name="aboutSection">
+    <div id="about" style={{ paddingTop: '200px' }}>
+      <h1 style={{ display: 'flex', justifyContent: 'center', marginBottom: '-300px' }}>About me</h1>
+      <Element>
         <Box display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'10rem'} height={'800px'}>
           <Terminal text={aboutMeText()} />
         </Box>
