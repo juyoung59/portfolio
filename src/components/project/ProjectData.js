@@ -21,8 +21,8 @@ const projectData = [
     detail: "출산율 감소 예방을 위한 육아 도움 서비스 '모두의 동화'",
     period: '2023.12.05 - 2023.12.12',
     used: 'HTML, CSS, JavaScript',
-    link: 'https://master--wanted-pre-onboarding-jy.netlify.app/',
-    source: 'https://github.com/juyoung59/wanted-pre-onboarding-frontend',
+    link: 'https://github.com/juyoung59',
+    source: 'https://github.com/juyoung59',
   },
   {
     id: 3,

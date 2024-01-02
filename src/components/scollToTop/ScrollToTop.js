@@ -15,7 +15,7 @@ const ScrollToTop = () => {
   return isVisible ? (
     <div className='scroll-top'>
       <a href='#top'>
-        위로
+        Top
       </a>
     </div>
   ) : null
