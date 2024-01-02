@@ -41,7 +41,7 @@ const projectData = [
     detail: "쌓아온 경험을 정리하는 '포트폴리오'",
     period: '2023.12.16 ~',
     used: 'JavaScript, HTML, CSS, React',
-    link: '',
+    link: 'juyoung-portfolio.netlify.app',
     source: 'https://github.com/juyoung59/portfolio',
   },
 ];

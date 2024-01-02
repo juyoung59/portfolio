@@ -80,7 +80,7 @@ export default function About() {
         </Box>
       </Element>
 
-      <h1 style={{ display: 'flex', justifyContent: 'center', marginBottom: '50px' }}>Skills</h1>
+      <h1 style={{ display: 'flex', justifyContent: 'center', marginBottom: '80px' }}>Skills</h1>
       <section style={{ display: 'flex', justifyContent: 'center' }}>
         <ul style={{ listStyle: 'none', padding: 0, display: 'flex' }}>
           <SkillItem src={htmlImg} alt="HTML Logo" text="Familiar" />
@@ -93,6 +93,7 @@ export default function About() {
           <SkillItem src={gitImg} alt="Git Logo" text="Familiar" />
           
         </ul>
+        
 
       </section>
     </div>

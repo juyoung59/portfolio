@@ -34,10 +34,10 @@ export default function Home() {
          </Box>
       </Box>
       <ScrollLink
-      to="about"  // 이동할 섹션의 ID
+      to="about"
       spy={true}
       smooth={true}
-      duration={500}  // 스크롤 애니메이션 지속 시간 (밀리초)
+      duration={500}
       className={Style.scrollDownText}
     >
       더 알아보기
